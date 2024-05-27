@@ -1,0 +1,8 @@
+.codex {
+    text-align: justify;
+    word-wrap: break-word;
+    overflow: auto; /* or scroll if you prefer scrolling */
+    max-width: 100%; /* Ensures that the text does not exceed the container's width */
+  }
+  
+  
