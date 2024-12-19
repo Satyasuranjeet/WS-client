@@ -11,7 +11,7 @@ function Home() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://ws-client-ten.vercel.app/scrape', { url });
+      const response = await axios.post('https://web-scraping-zeta-six.vercel.app/scrape', { url });
       setHtml(response.data.html);
       setError('');
     } catch (error) {
